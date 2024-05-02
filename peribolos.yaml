@@ -1,0 +1,116 @@
+orgs:
+  parodos-dev:
+    admins:
+      - anludke
+      - dmartinol
+      - eloycoto
+      - mareklibra
+      - masayag
+      - pkliczewski
+      - rgolangh
+    billing_email: pkliczew@redhat.com
+    company: "Red Hat"
+    default_repository_permission: read
+    description: ""
+    email: ""
+    has_organization_projects: true
+    has_repository_projects: true
+    location: ""
+    members:
+      - batzionb
+      - gabriel-farache
+      - gciavarrini
+      - jianrongzhang89
+      - jordigilh
+      - nirarg
+      - rhkp
+      - y-first
+      - ydayagi
+    members_can_create_repositories: true
+    name: ""
+    repos:
+      .github:
+        default_branch: main
+        has_projects: true
+      backstage-parodos:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: Backstage plugin for Parados
+        has_projects: true
+      janus-idp-bootstrap:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        has_issues: false
+        has_projects: true
+      orchestrator-helm-chart:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: Helm chart to deploy the Orchestrator solution suite.
+        has_projects: true
+        homepage: https://parodos.dev/orchestrator-helm-chart/
+      orchestrator-helm-operator:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: Meta Operator for deploying the Orchestrator helm charts
+        has_projects: true
+      orchestrator-metrics:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        has_projects: true
+      orchestrator-plugins-internal-release:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        has_issues: false
+        has_projects: true
+        has_wiki: false
+      parodos:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: Focused on helping enterprise developers get their code to production
+        has_projects: true
+      parodos-dev.github.io:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: Parodos website
+        has_projects: true
+      serverless-workflow-examples:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        has_projects: true
+      serverless-workflows:
+        allow_merge_commit: false
+        default_branch: main
+        description: A selected set of serverless workflows
+        has_projects: true
+      serverless-workflows-config:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        description: 'serverless workflows helm charts '
+        has_projects: true
+        homepage: https://parodos.dev/serverless-workflows-config/
+      workflow-software-templates:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        allow_squash_merge: false
+        default_branch: main
+        has_projects: true
